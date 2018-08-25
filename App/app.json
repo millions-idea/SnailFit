@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/subscribe/index",
+    "pages/contact/index",
+    "pages/me/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "蜗牛 FIT",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#535353",
+    "selectedColor": "#FF8700",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "#F1F1F1",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "dist/images/tabbar/0.png",
+        "selectedIconPath": "dist/images/tabbar/active_0.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/subscribe/index",
+        "iconPath": "dist/images/tabbar/1.png",
+        "selectedIconPath": "dist/images/tabbar/active_1.png",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/contact/index",
+        "iconPath": "dist/images/tabbar/2.png",
+        "selectedIconPath": "dist/images/tabbar/active_2.png",
+        "text": "im蜗牛"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "iconPath": "dist/images/tabbar/3.png",
+        "selectedIconPath": "dist/images/tabbar/active_3.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
