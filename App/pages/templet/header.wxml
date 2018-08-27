@@ -1,0 +1,27 @@
+<swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+    indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- text ad begin -->
+<view class='top-text-ad'>
+  <view class='radio-container'>
+    <image src="/dist/images/index/radio.png"></image>
+    <label class='title'>活动</label>
+  </view>
+  <view class='news-container'>
+    <view class='news'>
+      <view class='text'>
+        <label class='header'>新会员办理年卡立减500</label>
+        <label class='description'>8月10日 15:00开始</label>
+      </view>
+      <button>报名</button>  
+    </view> 
+  </view>
+</view>
+<!-- text ad end -->
