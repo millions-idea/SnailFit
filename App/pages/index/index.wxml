@@ -23,6 +23,7 @@
             <li class="no-line">最近距离</li>
           </ul>
       </view>
+      <span class="line"></span>
       <view class="dropdown-right">
           <block wx:if="{{activeIndex == 2}}">
             <span class="active"  bindtap='shopDropdown'>门店选择</span>
